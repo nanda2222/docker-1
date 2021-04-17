@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("nanda22/docker-git-1")
+        app = docker.build("nanda22/docker-git-3")
     }
 
     stage('Test image') {
